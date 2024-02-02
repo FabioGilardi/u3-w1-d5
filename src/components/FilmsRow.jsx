@@ -54,7 +54,10 @@ class FilmsRow extends Component {
               {this.state.isLoading && <Spinner variant="primary"></Spinner>}
               {this.state.movies.slice(0, 6).map((movie) => {
                 return (
-                  <Col className="mb-2 text-center px-1" key={movie.imdbID}>
+                  <Col
+                    className="mb-2 text-center px-2 py-2 py-md-1"
+                    key={movie.imdbID}
+                  >
                     <img
                       src={movie.Poster}
                       alt={movie.Title}

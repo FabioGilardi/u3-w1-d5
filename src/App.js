@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       {/* ----------------------------------- Inizio Homepage --------------------------------------------------------- */}
-      {/* <header>
+      <header>
         <CustomNavbar />
         <TitleGrid />
       </header>
@@ -21,7 +21,7 @@ function App() {
         <FilmsRow saga="Harry Potter" />
         <FilmsRow saga="Fast and Furious" />
       </main>
-      <CustomFooter /> */}
+      <CustomFooter />
       {/* ----------------------------------- Fine Homepage --------------------------------------------------------- */}
 
       {/* ----------------------------------- Inizio AccounPage --------------------------------------------------------- */}
@@ -34,13 +34,13 @@ function App() {
       <CustomFooter /> */}
       {/* ----------------------------------- Fine AccounPage --------------------------------------------------------- */}
       {/* ----------------------------------- Inizio Settings Page --------------------------------------------------------- */}
-      <header>
+      {/* <header>
         <CustomNavbar />
       </header>
       <main>
         <MainSettings />
       </main>
-      <CustomFooter />
+      <CustomFooter /> */}
       {/* ----------------------------------- Fine Settings Page --------------------------------------------------------- */}
     </>
   );
