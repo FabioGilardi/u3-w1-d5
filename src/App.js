@@ -6,6 +6,7 @@ import TitleGrid from "./components/TitleGrid";
 import FilmsRow from "./components/FilmsRow";
 import CustomFooter from "./components/CustomFooter";
 import UserMain from "./components/UserMain";
+import MainSettings from "./components/MainSettings";
 
 function App() {
   return (
@@ -24,14 +25,23 @@ function App() {
       {/* ----------------------------------- Fine Homepage --------------------------------------------------------- */}
 
       {/* ----------------------------------- Inizio AccounPage --------------------------------------------------------- */}
-      <header>
+      {/* <header>
         <CustomNavbar />
       </header>
       <main className="bg-css">
         <UserMain />
       </main>
-      <CustomFooter />
+      <CustomFooter /> */}
       {/* ----------------------------------- Fine AccounPage --------------------------------------------------------- */}
+      {/* ----------------------------------- Inizio Settings Page --------------------------------------------------------- */}
+      <header>
+        <CustomNavbar />
+      </header>
+      <main>
+        <MainSettings />
+      </main>
+      <CustomFooter />
+      {/* ----------------------------------- Fine Settings Page --------------------------------------------------------- */}
     </>
   );
 }
