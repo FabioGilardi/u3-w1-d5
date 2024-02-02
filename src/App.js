@@ -5,11 +5,13 @@ import CustomNavbar from "./components/CustomNavbar";
 import TitleGrid from "./components/TitleGrid";
 import FilmsRow from "./components/FilmsRow";
 import CustomFooter from "./components/CustomFooter";
+import UserMain from "./components/UserMain";
 
 function App() {
   return (
     <>
-      <header>
+      {/* ----------------------------------- Inizio Homepage --------------------------------------------------------- */}
+      {/* <header>
         <CustomNavbar />
         <TitleGrid />
       </header>
@@ -18,7 +20,18 @@ function App() {
         <FilmsRow saga="Harry Potter" />
         <FilmsRow saga="Fast and Furious" />
       </main>
+      <CustomFooter /> */}
+      {/* ----------------------------------- Fine Homepage --------------------------------------------------------- */}
+
+      {/* ----------------------------------- Inizio AccounPage --------------------------------------------------------- */}
+      <header>
+        <CustomNavbar />
+      </header>
+      <main className="bg-css">
+        <UserMain />
+      </main>
       <CustomFooter />
+      {/* ----------------------------------- Fine AccounPage --------------------------------------------------------- */}
     </>
   );
 }

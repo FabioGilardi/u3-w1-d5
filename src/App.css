@@ -80,5 +80,23 @@ footer {
 }
 
 .bg-css {
-  background-color: #221f1f;
+  background-color: #221f1f !important;
+}
+
+.pos {
+  bottom: 5%;
+  left: 5%;
+  z-index: 2;
+}
+
+#form-select {
+  background-color: #221f1f !important;
+}
+
+.small-edit {
+  font-size: 0.8rem;
+}
+
+.letter-spaced {
+  letter-spacing: 0.2rem;
 }
